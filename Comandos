@@ -1,0 +1,32 @@
+🛍️ Comandos do Mercado GTS
+/gts
+O que faz: Abre o menu principal do mercado global (interface em formato de baú) para o jogador ver todos os itens que estão à venda por outros jogadores.
+
+Quem pode usar: Todos os jogadores.
+
+/gts vender [preço]
+O que faz: Coloca o item que o jogador está segurando na mão principal à venda no mercado global pelo preço estipulado.
+
+Exemplo: /gts vender 150 (Anuncia o item da sua mão por $150).
+
+Quem pode usar: Todos os jogadores.
+
+🪙 Comandos de Economia (Money)
+/money
+O que faz: Mostra o saldo atual do próprio jogador que digitou o comando diretamente no chat.
+
+Quem pode usar: Todos os jogadores (por padrão, todo jogador começa com um saldo inicial de $1000.0 para testes).
+
+/money add [jogador] [quantia]
+O que faz: Adiciona uma quantidade específica de dinheiro ao saldo de um jogador que esteja online.
+
+Exemplo: /money add PlayerX 500 (Soma $500 ao saldo do PlayerX).
+
+Quem pode usar: Apenas administradores (requer a permissão gts.admin ou OP).
+
+/money set [jogador] [quantia]
+O que faz: Define/altera o saldo exato de um jogador online para a quantia estipulada, substituindo o valor anterior.
+
+Exemplo: /money set PlayerX 2000 (O saldo do PlayerX passa a ser exatamente $2000).
+
+Quem pode usar: Apenas administradores (requer a permissão gts.admin ou OP).
